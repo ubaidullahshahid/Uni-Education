@@ -1,0 +1,109 @@
+.footer-container{
+    position: relative;
+    top: 100px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.company-img{
+    width: 140px;
+    height: 120px;
+}
+.company-hd{
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+}
+.uni-hd{
+    color: grey;
+    margin: 0px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 130px;
+    text-align: center;
+}
+#contact-hd{
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 23px;
+}
+.phone-email-adderess{
+    margin-top: 20px;
+}
+.all-icons-images{
+    margin: 30px 0px 0px 10px;
+}
+.phone-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.location-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.email-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.email-container{
+    text-decoration: none;
+    color: black;
+}
+.icon-imgs{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.icon-imgs:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.newsletter-para{
+    width: 380px;
+    color: rgb(122, 121, 121);
+}
+.input-subscribe{
+    width: 220px;
+    height: 60px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    padding-left: 20px;
+    margin: 0px;
+}
+#subscribe-btn{
+    width: 100px;
+    height: 60px;
+    border-radius: 0px;
+    margin: 0px 10px 10px 0px;
+}
+.input-btn{
+    display: flex;
+    margin-top: 30px;
+}
+.map{
+    margin-top: 80px;
+}
+.copywrite-container{
+    background-color: #0087ab;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobirise-link{
+    text-decoration: none;
+    color: white;
+}
+.mobirise-link:hover{
+    color: grey;
+}
+.copywrite-hd{
+    color: white;
+}

@@ -1,0 +1,989 @@
+.body-container {
+    position: relative;
+    top: 100px;
+}
+
+.background-color {
+    background-color: rgba(1, 1, 65, 0.959);
+    width: 50%;
+}
+
+.inovation-heading {
+    margin: 0px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 0px;
+    color: white;
+    font-size: 70px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.para-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 620px;
+}
+
+.paraghraph {
+    margin-left: 50px;
+    padding: 0px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-main-div {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 40px;
+    /* line-height: 200px; */
+}
+
+.sign-up-button {
+    height: 50px;
+    width: 190px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    font-weight: bold;
+}
+
+.sign-up-button:hover {
+    background-color: white;
+    color: rgb(0, 132, 255);
+    cursor: pointer;
+}
+
+.learn-more-button {
+    height: 50px;
+    width: 130px;
+    border-radius: 7px;
+    margin-left: 10px;
+    border: 2px solid white;
+    background-color: rgba(1, 1, 65, 0.959);
+    color: white;
+    font-weight: bold;
+
+}
+
+.learn-more-button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.img-and-para-container {
+    display: flex;
+}
+
+.inovation-img {
+    height: 485px;
+    width: 700px;
+}
+
+
+
+.Statistics-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Statistics-heading {
+    font-size: 50px;
+    font-weight: 600;
+    border-bottom: 4px solid black;
+    line-height: 100px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.Statistics-para-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Statistics-para {
+    color: #9e9e9e;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.img-main-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.professor-img {
+    width: 160px;
+    height: 260px;
+}
+
+.campuses-img {
+    width: 160px;
+    height: 260px;
+}
+
+.student-img {
+    width: 160px;
+    height: 260px;
+}
+
+.course-img {
+    width: 160px;
+    height: 260px;
+}
+
+.img-heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.featured-main-div {
+    position: relative;
+}
+
+.featured-bg-img {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    z-index: -1;
+}
+
+.featured-bg-color {
+    background-color: rgba(0, 0, 0, 0.158);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.featured-heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-heading {
+    position: absolute;
+    top: 0px;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    border-bottom: 4px solid white;
+}
+
+.featured-para-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-para {
+    position: absolute;
+    top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.featured-img-container {
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anthropology-img {
+    width: 270px;
+    height: 230px;
+}
+
+.mathematics-img {
+    width: 270px;
+    height: 230px;
+}
+
+.programing-img {
+    width: 270px;
+    height: 230px;
+}
+
+.psychology-img {
+    width: 270px;
+    height: 230px;
+}
+
+.featured-img-heading {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    line-height: 60px;
+    color: #023b4b96;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.featured-img-container2 {
+    position: absolute;
+    top: 480px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.copywriting-img {
+    width: 270px;
+    height: 230px;
+}
+
+.economics-img {
+    width: 270px;
+    height: 230px;
+}
+
+.physics-img {
+    width: 270px;
+    height: 230px;
+}
+
+.design-img {
+    width: 270px;
+    height: 230px;
+}
+
+.university-hd-para-container {
+    width: 70%;
+}
+
+.University-hd-container {
+    margin-left: 100px;
+    margin-top: 100px;
+    border-bottom: 4px solid black;
+    width: 400px;
+}
+
+.about-uni-hd {
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.University-hd {
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.university-para {
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #9e9e9e;
+    font-size: 18px;
+}
+
+.learn-more-button-2 {
+    background-color: white;
+    height: 50px;
+    width: 140px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+    font-weight: 600px;
+    margin-left: 110px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+.learn-more-button-2:hover {
+    cursor: pointer;
+    background-color: #023b4b96;
+}
+
+.uni-hd-img-container {
+    display: flex;
+}
+
+.university-img {
+    margin-top: 100px;
+}
+
+.students-main-div {
+    position: relative;
+    margin-top: 100px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.418);
+    width: 100%;
+    height: 520px;
+}
+
+.students-heading-container {
+    position: absolute;
+    top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.students-heading {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    border-bottom: 4px solid white;
+}
+
+.students-para-container {
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.students-para {
+    color: white;
+    text-align: center;
+}
+
+.getstarted-container {
+    position: absolute;
+    top: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.getstarted-button {
+    height: 50px;
+    width: 130px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    font-weight: bold;
+}
+
+.getstarted-button:hover {
+    background-color: white;
+    color: rgb(0, 132, 255);
+    cursor: pointer;
+}
+
+.our-features-main-div {
+    display: flex;
+}
+
+.our-features-container {
+    width: 65%;
+
+}
+
+.our-features-hd-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px 0px 0px 0px;
+
+}
+
+.our-features-heading {
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.our-features-para {
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+    color: #9e9e9e;
+    font-size: 15px;
+}
+
+.professor-campus-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.professor-img2 {
+    width: 70px;
+    height: 75xpx;
+}
+
+.professor-img-hd-container {
+    display: flex;
+}
+
+.professor-hd-container {
+    margin-left: 50px;
+}
+
+.professor-no-hd {
+    color: #0087ab;
+    font-size: 40px;
+    margin: 0px;
+    font-family: math;
+    font-weight: bolder;
+}
+
+.professor-hd {
+    color: black;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.campuses-img-hd-container {
+    display: flex;
+    margin-right: 100px;
+}
+
+.campuses-hd-container {
+    margin-left: 50px;
+}
+
+.campuses-no-hd {
+    color: #0087ab;
+    font-size: 40px;
+    margin: 0px;
+    font-family: math;
+    font-weight: bolder;
+}
+
+.campuses-hd {
+    color: black;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.campuses-img2 {
+    margin-top: 5px;
+    width: 90px;
+    height: 65px;
+}
+
+.students-courses-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.students-img-hd-container {
+    display: flex;
+}
+
+.students-img2 {
+    margin-top: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.students-hd-container {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.students-no-hd {
+    color: #0087ab;
+    font-size: 40px;
+    margin: 0px;
+    font-family: math;
+    font-weight: bolder;
+}
+
+.students-hd {
+    color: black;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.courses-img-hd-container {
+    display: flex;
+    margin-right: 100px;
+}
+
+.courses-hd-container {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 15px;
+}
+
+.courses-no-hd {
+    color: #0087ab;
+    font-size: 40px;
+    margin: 0px;
+    font-family: math;
+    font-weight: bolder;
+}
+
+.courses-hd {
+    color: black;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.courses-img2 {
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 80px;
+    height: 70px;
+}
+
+.our-features-img {
+    width: 540px;
+    height: 600px;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+}
+
+.anthropology-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.mathematics-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.programing-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.psychology-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.images2 {
+    width: 100%;
+    display: flex;
+}
+
+.copywriting-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.economics-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.physics-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.design-img2 {
+    width: 337px;
+    height: 280px;
+}
+
+.copywriting-img-container2 {
+    position: relative;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 337px;
+    height: 280px;
+    text-align: center;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copywriting-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+}
+
+.design-img-container2 {
+    position: relative;
+}
+
+.design-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.physics-img-container2 {
+    position: relative;
+}
+
+.physics-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.economics-img-container2 {
+    position: relative;
+}
+
+.economics-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.programing-img-container2 {
+    position: relative;
+}
+
+.programing-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.psychology-img-container2 {
+    position: relative;
+}
+
+.psychology-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.mathematics-img-container2 {
+    position: relative;
+}
+
+.mathematics-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.anthropology-img-container2 {
+    position: relative;
+}
+
+.anthropology-img-container2:hover .overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.our-team-hd-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.our-team-hd {
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    /* border-bottom: 4px solid black; */
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p {
+    border-bottom: 4px solid black;
+    width: 100px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.our-team-imgs-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.jessica-lee-img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.jhon-bennett-img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.oliver-doe-img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.christina-hardy-img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+}
+
+.jhon-bennett-hd {
+    color: #0087ab;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.oliver-doe-hd {
+    color: #0087ab;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.jessica-lee-hd {
+    color: #0087ab;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.christina-hardy-hd {
+    color: #0087ab;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.Geophysics-hd {
+    color: #9e9e9e;
+    margin-left: 20px;
+}
+
+.Psychology-hd {
+    color: #9e9e9e;
+    margin-left: 20px;
+}
+
+.Economics-hd {
+    color: #9e9e9e;
+    margin-left: 20px;
+}
+
+.Graphic-Design-hd {
+    color: #9e9e9e;
+    margin-left: 20px;
+}
+
+.slider {
+    margin-top: 100px;
+}
+
+.student-table-container {
+    margin-top: 80px;
+}
+
+.students-table-hd-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.students-table-hd {
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    /* border-bottom: 4px solid black; */
+}
+
+.student-table-container p {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.table-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table {
+    width: 850px;
+}
+
+.table-hd {
+    background-color: rgba(1, 1, 65, 0.959);
+    color: white;
+    font-weight: 700px;
+    line-height: 40px;
+}
+
+.table-hd:hover {
+    cursor: pointer;
+}
+
+.table td {
+    color: #9e9e9e;
+}
+
+.skill-bar-container {
+    margin-top: 200px;
+}
+
+.skill-bars-hd {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+.skill-bar-container p {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.law-hd-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.law-hd-container p {
+    margin: 0px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    /* font-weight: lighter; */
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-container img {
+    width: 500px;
+    margin: 0px 15px 0px 0px;
+}
+
+.mathematics-container {
+    margin-top: 40px;
+}
+
+.ComputerScience-container {
+    margin-top: 40px;
+}
+
+.physics-container {
+    margin-top: 40px;
+}
+
+.form-container {
+    display: flex;
+    margin-top: 50px;
+}
+.form-img img{
+height: 100%;
+}
+.fill-form-container {
+    background-color: rgba(1, 1, 65, 0.959);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.fill-form-hd {
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+
+.div2 {
+   width: 200px;
+   display: flex;
+   justify-content: right;
+}
+
+.p2 {
+    width: 30px;
+    border-bottom: 4px solid white;
+    margin-top: 10px;
+}
+
+.first-name-hd {
+    color: white;
+    margin-top: 10px;
+}
+
+.first-name {
+    width: 350px;
+    height: 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#send-button {
+    width: 150px;
+    border-radius: 2px;
+}
